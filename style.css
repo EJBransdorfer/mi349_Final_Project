@@ -9,7 +9,7 @@ body{
 #obscure{
 	display: none;
 }
-#mydiv{
+#disappear{
 
 	display: inline-block;
 	text-align: center;
@@ -25,4 +25,43 @@ body{
 }
 h1{
 	text-align: center;
+}
+#container{
+	display: none;
+	flex-direction: column;
+}
+#header{
+	text-align: center;
+	background-color: #C0C0C0
+}
+h2{
+	text-align: center;
+	border-bottom: 1px solid white;
+	color: white;
+	margin-top: 5%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+#mylamps{
+	background-color: #696969;
+
+}
+#mylamps img{
+	width: 18%;
+	height:20%;
+	display:flex;
+}
+
+#wantedlamps{
+	background-color: #808080;
+	display: flex;
+}
+#tricks{
+	background-color: #A9A9A9;
+	display: flex;
+	flex-direction: row;
+}
+#contact{
+	background-color: #808080;
+	flex-direction: row;
 }

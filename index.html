@@ -7,26 +7,73 @@
 	<title>Ethan Bransdorfer - Resume</title>
 	<script type="text/javascript">
 		function myFunction() {
-		  var x = document.getElementById("mydiv");
+		  var a = document.getElementById("container");
+		  var x = document.getElementById("disappear");
 		  var y = document.getElementById("button");
-		  var z = document.getElementById("obscure");
+		  a.style.display = "flex";
 		  x.style.display = "none";
 		  y.style.display = "none";
+
+
+		  var z = document.getElementById("obscure");
 		  z.style.display = "block";
+		  
 		}
 	</script>
 </head>
 <body>
-	<section id="obscure">
-		<img id="shade" src="shade.png" width="500px">
-
-	</section>
-	<div id="mydiv">
-		<img class="lamp" src="lamp.png" width="50%">
-		<button  id="button" onclick="myFunction()" ><img src="switch.png"></button>
+	<div id="disappear">
+		<img class="lamp" src="lamp.png" alt="Lamp Drawing" width="50%">
+		<button  id="button" onclick="myFunction()" ><img src="switch.png" alt="Light switch drawing"></button>
 		<h1>
 			If you desire knowledge and information on the person known as Ethan, click on the light switch and may the lamp light up the darkness.
 		</h1>
 	</div>
+	<div id="container">
+
+		<div id="header">
+			<h2>Ethan J. Bransdorfer</h2>
+			<h3>Lamp Fanatic</h3>
+		</div>
+
+		<div id="mylamps">
+			<h2>My Lamps: </h2>
+			<img src="lamp1.png">
+			<img src="lamp2.png">
+			<img src="lamp3.png">
+			<img src="lamp4.png">
+			<img src="lamp5.png">
+		</div>
+		<div id="wantedlamps">
+			<h2>Lamps I Want: </h2>
+		</div>
+		<div id="tricks">
+			<h2>Lamp Tricks: </h2>
+			<video controls="controls" width="800" height="600" 
+       name="Video Name" src="trick1.mp4" type="video/mp4"></video>
+       <video controls="controls" width="800" height="600" 
+       name="Video Name" src="trick2.mp4" type="video/mp4"></video>
+       <video controls="controls" width="800" height="600" 
+       name="Video Name" src="trick3.mp4" type="video/mp4"></video>
+       <video controls="controls" width="800" height="600" 
+       name="Video Name" src="trick4.mp4" type="video/mp4"></video>
+       <video controls="controls" width="800" height="600" 
+       name="Video Name" src="trick5.mp4" type="video/mp4"></video>
+		</div>
+		<div id="contact">
+			<h2>Contact: </h2>
+		</div>
+
+	</div>
+	
+<!---
+	<section id="obscure">
+		text
+		<img id="shade" src="shade.png" width="500px">
+		text
+	</section>
+-->
+
+	
 </body>
 </html>
