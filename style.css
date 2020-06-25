@@ -94,6 +94,8 @@ h2{
 #wantedlamps .col img{
 	border:10px solid black;
 	justify-content: center;
+	max-width: 100%;
+  	height: auto;
 
 }
 #tricks{
