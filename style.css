@@ -1,0 +1,28 @@
+body{
+	background-color: black;
+	color: white;
+	font-family: Helvetica, san-serif;
+}
+#shade:hover{
+	opacity: 0.5;
+}
+#obscure{
+	display: none;
+}
+#mydiv{
+
+	display: inline-block;
+	text-align: center;
+	position: relative;
+
+}
+#button{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-bottom: 0;
+	margin-bottom: 0px;
+}
+h1{
+	text-align: center;
+}
