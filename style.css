@@ -17,8 +17,15 @@ body{
 	position: relative;
 
 }
-#lamp img{
-	width:50%;
+.lamp img{
+	width: 50%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-bottom: 0;
+	margin-bottom: 0px;
+
 }
 #button{
 	margin: 0;
