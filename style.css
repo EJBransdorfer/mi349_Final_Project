@@ -1,7 +1,8 @@
 body{
 	background-color: black;
 	color: white;
-	font-family: Helvetica, san-serif;
+	font-family: Alternate Gothic, Helvetica, san-serif;
+
 }
 #shade:hover{
 	opacity: 0.5;
@@ -15,6 +16,9 @@ body{
 	text-align: center;
 	position: relative;
 
+}
+#lamp img{
+	width:50%;
 }
 #button{
 	margin: 0;
@@ -32,36 +36,111 @@ h1{
 }
 #header{
 	text-align: center;
-	background-color: #C0C0C0
+	width: 100%;
+  	height: auto;
 }
 h2{
 	text-align: center;
 	border-bottom: 1px solid white;
-	color: white;
 	margin-top: 5%;
 	margin-left: 20%;
 	margin-right: 20%;
 }
+#header h3{
+  	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 10px yellow;
+}
 #mylamps{
 	background-color: #696969;
+	display:flex;
+	flex-direction: column;
 
+}
+#mylamps .col{
+	align-items: center;
+	justify-content: space-around;
 }
 #mylamps img{
 	width: 18%;
 	height:20%;
-	display:flex;
+	border:1px solid black;
 }
-
+.pro {
+  	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.con {
+  	text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkred;
+}
 #wantedlamps{
 	background-color: #808080;
-	display: flex;
+	display: inline-flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#wantedlamps .col a:hover{
+	opacity: 0.5;
+}
+#wantedlamps .col img{
+	border:10px solid black;
+	justify-content: center;
+
 }
 #tricks{
+	display:flex;
 	background-color: #A9A9A9;
-	display: flex;
+	flex-direction: column;
+}
+.col{
+	display:flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+}
+.row{
+	display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 #contact{
 	background-color: #808080;
-	flex-direction: row;
+}
+#contact h2{
+	font-weight: 
+}
+.card{
+	background-color: #f3f3f3;
+	border-radius: 15px;
+	margin: 0 auto;
+	width: 400px;
+	text-align: center;
+	box-shadow: black 0 10px 10px;
+	border:1px solid #aaa;
+	color:black;
+}
+.card .avatar{
+	border: 5px solid black;
+	width: 100px;
+	border-radius: 50%;
+}
+.card h2{
+	text-shadow: 1px 1px 2px gold, 0 0 25px blue, 0 0 10px yellow;
+}
+.contacts{
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.contacts img{
+	width: 100%;
+	box-shadow: black 2px 2px 2px;
+}
+.contacts li{
+	width: 30px;
+	display: inline-block;
+	padding: 20px 10px;
+}
+.contacts li a img:hover{
+	opacity:0.5;
+	transition: color ease-in-out 0.2s;
 }
