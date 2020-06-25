@@ -41,9 +41,13 @@ h1{
 	display: none;
 	flex-direction: column;
 }
-#header{
+#header {
 	text-align: center;
-	width: 100%;
+	max-width: 100%;
+  	height: auto;
+}
+#header img{
+	max-width: 100%;
   	height: auto;
 }
 h2{
