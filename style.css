@@ -105,7 +105,7 @@ h2{
 	background-color: #808080;
 }
 #contact h2{
-	font-weight: 
+	font-weight: bold;
 }
 .card{
 	background-color: #f3f3f3;
@@ -143,4 +143,7 @@ h2{
 .contacts li a img:hover{
 	opacity:0.5;
 	transition: color ease-in-out 0.2s;
+}
+video{
+	width: 100%;
 }
